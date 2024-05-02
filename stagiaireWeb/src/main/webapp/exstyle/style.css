@@ -1,0 +1,264 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tw Cen Mt';
+    font-size: 14px;
+    background: url('17973908.jpg') center top no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.ALL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.background-form {
+    width: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px 60px;
+    margin-top: 50px;
+     margin-left: auto;
+    margin-right: auto;
+
+    /* Centrer verticalement */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.align-left {
+    margin-left: 0; /* Vous pouvez ajuster la marge à gauche si nécessaire */
+    float: left; /* Utilisation de float pour aligner la table à gauche */
+    clear: left; /* Évite que d'autres éléments flottants interfèrent */
+    /* Autres styles si nécessaire */
+}
+table.table {
+    margin-left: 0; /* Ajustez la marge à gauche si nécessaire */
+    float: left; /* Utilisation de float pour aligner la table à gauche */
+    clear: left; /* Éviter que d'autres éléments flottants interfèrent */
+    /* Autres styles si nécessaire */
+}
+header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 70px; /* Réduction de la taille du logo */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right:50px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #2eb0f0;
+}
+.text{
+	padding: 70px 0;
+	color: white;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.text h1{
+	font-size: 75px;
+	line-height: 2;
+	margin-bottom: 1rem;
+}
+.text p{
+    font-size: 14px; /* Taille de la police pour les paragraphes p */
+	line-height: 1.5;
+	letter-spacing: 1px;
+	margin-bottom: 2rem;
+	
+}
+.wrapper .background-form {
+    width: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0; /* Réduction de la taille de la barre de navigation */
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 150px;
+    z-index: 1000;
+    background-color:transparent; /* Couleur de fond de la barre de navigation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre pour la barre de navigation */ /* Pour placer le logo à gauche et la barre de navigation à droite */
+}
+
+
+.custom-navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.custom-navbar ul li {
+    margin-right: 20px; /* Réduction de l'espace entre les éléments de la barre de navigation */
+}
+
+.custom-navbar ul li:last-child {
+    margin-right: 0; /* Supprimer la marge à droite pour le dernier élément */
+}
+
+.custom-navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.custom-navbar ul li a:hover {
+    color: #2eb0f0;
+}
+
+.custom-navbar .logo {
+    width: 70px; /* Réduction de la taille du logo */
+}
+
+.lead {
+    font-size: 24px;
+    color: white;
+    text-align: center; /* Centrer le texte */
+    /* Autres styles si nécessaire */
+}
+
+.lead p {
+    font-style: italic; /* Mettre le texte en italique */
+}
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espacement entre les éléments */
+}
+
+/* Centrer le bouton de déconnexion */
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espacement du haut */
+}
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.ALL{
+	   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px; 
+}
+
+.bonjour {
+	    margin-top: 70px; 
+
+    text-align: center; /* Centrer le texte */
+    font-weight: bold; /* Mettre le texte en gras */
+    font-size: 40px;
+    color: antiquewhite;
+}
+.titre {
+    text-align: center;
+    margin-top: 150px; /* Augmentez la marge supérieure pour placer le titre plus haut */
+}
+
+
+
+.titre h2 {
+    color: white; /* Définit la couleur du texte en blanc */
+    font-weight: bold; /* Mettre le texte en gras */
+}
+.t {
+    color: white; /* Couleur du texte */
+    margin-top: 60px; /* Ajustez l'espacement entre le formulaire et le tableau */
+}
+
+.nomStag{
+	 margin-top: 90px; 
+    text-align: center; /* Centrer le texte */
+}
+.nomStag h2{
+	 color: white; /* Définit la couleur du texte en blanc */
+    font-weight: bold;
+}
+.container {
+    /* Ajoutez ces propriétés pour centrer le contenu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        background-color: transparent; /* Couleur de fond transparente */
+
+}
+.dropdown-menu {
+    background-color: black; /* Définir la couleur de fond transparente */
+    border: 2px; 
+    z-index: 1; /* Z-index initial */}
+
+.table th,
+.table td {
+    color: white; /* Couleur du texte dans la table */
+    font-size: 1.2rem; /* Taille de la police */
+}
