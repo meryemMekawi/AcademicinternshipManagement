@@ -35,7 +35,7 @@ Ellipse Internship Management Platform is a web application designed to streamli
    -update
    ```bash
    Update src/main/resources/application.properties with your database credentials and server settings.
-4.**Build And Deploy
+4.**Build And Deploy**
 -Compile the project using:
 ```bash
 javac -cp "path/to/tomcat/lib/servlet-api.jar:path/to/project/src" -d path/to/project/build path/to/project/src/**/*.java
@@ -43,9 +43,9 @@ javac -cp "path/to/tomcat/lib/servlet-api.jar:path/to/project/src" -d path/to/pr
 -Deploy the generated '.war' file to Tomcat's 'webapps' directory.
 
 ### Usage
- 1.***Start the tomcat Server
+ 1.**Start the tomcat Server**
 -Run startup.sh (Linux/Mac) or startup.bat (Windows) from the Tomcat bin directory.
-2.***Access the Platform***
+2.**Access the Platform**
 -Open a web browser and navigate to http://localhost:8080/ellipse.
 ### Contributing
 Contributions to the Ellipse Internship Management Platform are welcome! Please fork the repository and submit a pull request with your enhancements.
